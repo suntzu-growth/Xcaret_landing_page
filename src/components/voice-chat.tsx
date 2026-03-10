@@ -59,27 +59,27 @@ export function VoiceChat() {
     <div className="flex flex-col items-center justify-center space-y-4 py-3 animate-in fade-in duration-1000 w-full px-4">
       {/* Three Column Images */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl">
-        <div className="group relative overflow-hidden rounded-2xl aspect-[16/9] shadow-lg">
+        <div className="group relative overflow-hidden rounded-2xl h-44 shadow-lg bg-gray-100">
           <img
             src="/xcaret-1.png"
             alt="Xe-Há"
-            className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+            className="object-contain w-full h-full transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
         </div>
-        <div className="group relative overflow-hidden rounded-2xl aspect-[16/9] shadow-lg">
+        <div className="group relative overflow-hidden rounded-2xl h-44 shadow-lg bg-gray-100">
           <img
             src="/xcaret-2.png"
             alt="Xcaret México"
-            className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+            className="object-contain w-full h-full transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
         </div>
-        <div className="group relative overflow-hidden rounded-2xl aspect-[16/9] shadow-lg">
+        <div className="group relative overflow-hidden rounded-2xl h-44 shadow-lg bg-gray-100">
           <img
             src="/xcaret-3.png"
             alt="Xenses por Xcaret"
-            className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
+            className="object-contain w-full h-full transition-transform duration-500 group-hover:scale-105"
           />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
         </div>
