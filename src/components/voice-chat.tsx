@@ -103,7 +103,7 @@ export function VoiceChat() {
             <Mic className="w-5 h-5" />
           )}
           <span>
-            {isActive ? "Terminar conversación" : "Habla con un asesor inmobiliario"}
+            {isActive ? "Terminar conversación" : "Habla con un experto Xcaret"}
           </span>
         </button>
 
