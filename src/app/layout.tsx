@@ -11,8 +11,8 @@ const lora = Lora({
 });
 
 export const metadata: Metadata = {
-  title: "Suntzu: Realestate AI Assistant",
-  description: "Tu asistente de IA para encontrar la casa ideal con Suntzu Realestate.",
+  title: "Suntzu: AI Agent",
+  description: "Agente de IA conversacional para descubrir los parques y experiencias del Grupo Xcaret en la Riviera Maya.",
 };
 
 export default function RootLayout({
