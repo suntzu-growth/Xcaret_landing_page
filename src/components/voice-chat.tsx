@@ -86,7 +86,7 @@ export function VoiceChat() {
       </div>
 
       {/* Action Button */}
-      <div className="flex flex-col items-center space-y-4 w-full">
+      <div className="flex flex-col items-center space-y-2 w-full">
         <button
           onClick={isActive ? stopConversation : startConversation}
           disabled={isBuffering}
@@ -108,7 +108,7 @@ export function VoiceChat() {
         </button>
 
         {/* Status and Visualization */}
-        <div className="text-center space-y-2 min-h-[40px]">
+        <div className="text-center space-y-1 min-h-0">
           <p className={`text-md font-medium transition-colors duration-300 ${isActive ? "text-green-600" : "text-gray-500"}`}>
             {isBuffering
               ? "Conectando con tu asesor..."
