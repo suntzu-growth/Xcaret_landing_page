@@ -54,8 +54,8 @@ export function Header({ conversationId }: { conversationId?: string }) {
                     >
                         <div className="relative w-32 h-10">
                             <img
-                                src="/smartup_logo_header.webp"
-                                alt="SmartUp - Volver al inicio"
+                                src="/xcaret-logo.png"
+                                alt="Xcaret - Volver al inicio"
                                 className="object-contain w-full h-full"
                             />
                         </div>

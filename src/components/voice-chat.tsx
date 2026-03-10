@@ -61,24 +61,24 @@ export function VoiceChat() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
         <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg">
           <img
-            src="https://cdn.prod.website-files.com/65b8f2e12ad31cfeaf4a3080/68553bfac2736e78efaeb713__VWaM4Xpf2wmiSoKyF34XzMcW0NwOOeM14wey09tbq4.jpeg"
-            alt="Casa Son Parc"
+            src="/xcaret-1.png"
+            alt="Xe-Há"
             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
         </div>
         <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg">
           <img
-            src="https://cdn.prod.website-files.com/65b8f2e12ad31cfeaf4a3080/68399c76d735954ce43d3df3_2OJKNLIrdQg_jcfK5Q-njXjoZCKwn95V7xrKQhrLWmQ.jpeg"
-            alt="Casa Tarida"
+            src="/xcaret-2.png"
+            alt="Xcaret México"
             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
         </div>
         <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg">
           <img
-            src="https://cdn.prod.website-files.com/65b8f2e12ad31cfeaf4a3080/686b90af893633d8d586f846_ex2lo02-14eP7uzeZVTZeFVmZZDqpV_v9L09Q6pu1Ls.jpeg"
-            alt="Casa Lábara"
+            src="/xcaret-3.png"
+            alt="Xenses por Xcaret"
             className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
