@@ -12,7 +12,7 @@ export default function Home() {
       <main className="flex-1 pt-12 md:pt-16 flex flex-col items-center justify-center">
         <div className="max-w-4xl mx-auto flex flex-col items-center px-6">
           <SearchHero />
-          <div className="w-full mt-4 md:mt-8">
+          <div className="w-full mt-2 md:mt-3">
             <VoiceChat />
           </div>
         </div>

@@ -1,10 +1,10 @@
 export function SearchHero() {
     return (
-        <div className="flex flex-col items-center justify-center w-full max-w-3xl mx-auto py-3 md:pb-2 md:pt-4 space-y-8 text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
+        <div className="flex flex-col items-center justify-center w-full max-w-3xl mx-auto py-1 md:py-2 space-y-3 text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
             <img
                 src="/xcaret-logo.png"
                 alt="Xcaret"
-                className="h-24 md:h-28 w-auto"
+                className="h-16 md:h-20 w-auto"
             />
             <p
                 className="text-base md:text-lg max-w-xl mx-auto px-4"
@@ -16,7 +16,7 @@ export function SearchHero() {
                     color: 'rgb(17, 89, 122)'
                 }}
             >
-                Descubre residencias vacacionales exclusivas en Mérida y la costa yucateca, diseñadas para disfrutar, invertir y crear experiencias únicas durante todo el año.
+                Descubre los parques y experiencias únicas del Grupo Xcaret en la Riviera Maya — naturaleza, cultura y aventura en el corazón del Caribe mexicano.
             </p>
         </div>
     );

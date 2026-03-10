@@ -56,10 +56,10 @@ export function VoiceChat() {
   const isBuffering = conversation.status === "connecting" || isConnecting;
 
   return (
-    <div className="flex flex-col items-center justify-center space-y-8 py-8 animate-in fade-in duration-1000 w-full px-4">
+    <div className="flex flex-col items-center justify-center space-y-4 py-3 animate-in fade-in duration-1000 w-full px-4">
       {/* Three Column Images */}
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full max-w-6xl">
-        <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl">
+        <div className="group relative overflow-hidden rounded-2xl aspect-[16/9] shadow-lg">
           <img
             src="/xcaret-1.png"
             alt="Xe-Há"
@@ -67,7 +67,7 @@ export function VoiceChat() {
           />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
         </div>
-        <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg">
+        <div className="group relative overflow-hidden rounded-2xl aspect-[16/9] shadow-lg">
           <img
             src="/xcaret-2.png"
             alt="Xcaret México"
@@ -75,7 +75,7 @@ export function VoiceChat() {
           />
           <div className="absolute inset-0 bg-black/10 group-hover:bg-black/0 transition-colors duration-500" />
         </div>
-        <div className="group relative overflow-hidden rounded-2xl aspect-[4/3] shadow-lg">
+        <div className="group relative overflow-hidden rounded-2xl aspect-[16/9] shadow-lg">
           <img
             src="/xcaret-3.png"
             alt="Xenses por Xcaret"
