@@ -52,7 +52,7 @@ export function Header({ conversationId }: { conversationId?: string }) {
                         onClick={handleLogoClick}
                         className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity"
                     >
-                        <div className="relative w-40 h-12">
+                        <div className="relative w-52 h-14">
                             <img
                                 src="/xcaret-logo.png"
                                 alt="Xcaret - Volver al inicio"

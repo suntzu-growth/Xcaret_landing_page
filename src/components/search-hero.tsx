@@ -4,7 +4,7 @@ export function SearchHero() {
             <img
                 src="/xcaret-logo.png"
                 alt="Xcaret"
-                className="h-24 md:h-32 w-auto"
+                className="h-36 md:h-44 w-auto"
             />
             <p
                 className="text-base md:text-lg max-w-xl mx-auto px-4"
