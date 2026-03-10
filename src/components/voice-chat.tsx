@@ -56,7 +56,7 @@ export function VoiceChat() {
   const isBuffering = conversation.status === "connecting" || isConnecting;
 
   return (
-    <div className="flex flex-col items-center justify-center space-y-4 py-3 animate-in fade-in duration-1000 w-full px-4">
+    <div className="flex flex-col items-center justify-center space-y-3 py-2 animate-in fade-in duration-1000 w-full px-4">
       {/* Three Column Images */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-6xl">
         <div className="group relative overflow-hidden rounded-2xl h-44 shadow-lg bg-gray-100">
@@ -108,7 +108,7 @@ export function VoiceChat() {
         </button>
 
         {/* Status and Visualization */}
-        <div className="text-center space-y-2 min-h-[60px]">
+        <div className="text-center space-y-2 min-h-[40px]">
           <p className={`text-md font-medium transition-colors duration-300 ${isActive ? "text-green-600" : "text-gray-500"}`}>
             {isBuffering
               ? "Conectando con tu asesor..."

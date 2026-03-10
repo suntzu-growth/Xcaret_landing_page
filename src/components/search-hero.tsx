@@ -1,6 +1,6 @@
 export function SearchHero() {
     return (
-        <div className="flex flex-col items-center justify-center w-full max-w-3xl mx-auto py-1 md:py-2 space-y-3 text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
+        <div className="flex flex-col items-center justify-center w-full max-w-3xl mx-auto py-1 space-y-1 text-center animate-in fade-in slide-in-from-bottom-4 duration-700">
             <img
                 src="/xcaret-logo.png"
                 alt="Xcaret"
